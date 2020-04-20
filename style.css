@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-.card{
+.card {
     background-color: #1e1b26;
     width: 375px;
     display: block;
@@ -11,11 +11,12 @@
     box-shadow: 2px 3px 7px 3px #aaa;
 }
 
-.img{
-    border-radius: 20px;
+.img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
     color: #e7e7e7;
     font-size: 40px;
@@ -23,31 +24,29 @@ h1{
     margin-bottom: -10px;
 }
 
-h3{
+h3 {
     font-family: 'Montserrat', sans-serif;
     color: #e7e7e7;
     font-size: 15px;
     margin-left: inherit;
-    
-
 }
 
-#subtitulo{
+#subtitulo {
     font-weight: bold;
 }
 
-p{
+p {
    color: #9b9b9b;
    margin-left: inherit;
 }
 
-.reparto{
+.reparto {
     color: #e7e7e7;
     font-style: italic;
     margin-left: inherit;
 }
 
-.watch{
+.watch {
     color: #fe4141;
     border-top: 1px #fe4141 solid;
     border-bottom: 1px #fe4141 solid;
@@ -63,7 +62,7 @@ p{
 }
     
 
-.boton{
+.boton {
     display: inline-block;
     height: 10px;
     width: 10px;
